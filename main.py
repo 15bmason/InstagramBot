@@ -75,5 +75,5 @@ class InstaBot:
         self.driver.find_element_by_xpath("/html/body/div[1]/section/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div/div[3]/button").click()
         sleep(2)
            
-my_bot = InstaBot()
-my_bot.singleMessage(secret.PN, secret.PW, "benpartridge2154", "I made an Instagram bot - Sent from the Bot")
+bot = InstaBot()
+bot.singleMessage(secret.PN, secret.PW, "benpartridge2154", "I made an Instagram bot - Sent from the Bot")
